@@ -22,14 +22,14 @@ function LoginForm() {
     const renderPasswordField = () => (
         <>
             <label htmlFor='password' className='label'>PASSWORD</label>
-            <input type='password' id='password' className='input' placeholder='Password' value={password} onChange={onChangePassword} />
+            <input type='password' id='password' className='input' placeholder='rahul@2021' value={password} onChange={onChangePassword} />
         </>
     )
 
     const renderUsernameField = () => (
         <>
             <label htmlFor='username' className='label'>USERNAME</label>
-            <input type='text' id='username' className='input' placeholder='Username' value={username} onChange={onChangeUsername} />
+            <input type='text' id='username' className='input' placeholder='rahul' value={username} onChange={onChangeUsername} />
         </>
     )
 
